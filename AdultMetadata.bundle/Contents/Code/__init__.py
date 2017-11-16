@@ -56,7 +56,7 @@ class AdultMetadataAgent(Agent.Movies):
                 NakedKombat(),
                 BoundInPublic(),
                 ThirthyMinutesOfTorment(),
-                ButtMachineBoys()
+                ButtMachineBoys(),
                 NastyDaddy()
                 ]
 
