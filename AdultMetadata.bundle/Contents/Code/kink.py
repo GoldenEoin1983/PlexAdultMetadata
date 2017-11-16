@@ -741,3 +741,20 @@ class ButtMachineBoys(Kink):
 
     def create(self):
         return ButtMachineBoys()
+
+#
+# Gay Channels
+#
+
+ class NastyDaddy(Kink):
+    def __init__(self):
+        Kink.__init__(self, "NastyDaddy", "Nasty Daddy", "")
+        self.patterns.append(Pattern(self, MatchPriority.High, MatchType.Filename, ".*NastyDaddy.*", re.IGNORECASE))
+        self.patterns.append(Pattern(self, MatchPriority.High, MatchType.Directory, ".*NastyDaddy.*", re.IGNORECASE))
+        self.patterns.append(Pattern(self, MatchPriority.High, MatchType.Filename, ".*Nasty Daddy.*", re.IGNORECASE))
+        self.patterns.append(Pattern(self, MatchPriority.High, MatchType.Directory, ".*Nasty Daddy.*", re.IGNORECASE))
+        self.patterns.append(Pattern(self, MatchPriority.Low, MatchType.Filename, "^ND\W.*", re.IGNORECASE))
+        self.patterns.append(Pattern(self, MatchPriority.Low, MatchType.Filename, ".*\WND\W.*", re.IGNORECASE))
+
+    def create(self):
+        return NastyDaddy()

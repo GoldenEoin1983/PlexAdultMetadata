@@ -53,17 +53,17 @@ send a message or open up a bug with more information.  The intention is that th
 date if at all possible without you needing to rename the file.*
 
 * YYYY-MM-DD (i.e. 2016.12.01)
-  
+
   Instead of a dash (-), the separator can be dot (.), underscore (_), or space ( ).
-  
+
 * YY-MM-DD (i.e. 16_12_01)
-  
+
   Instead of a dash (-), the separator can be dot (.), underscore (_), or space ( ).
-  
+
 * MMM DD, YYYY (i.e. Dec 01, 2016)
 
   Months must be in English!
-  
+
 * YYMMDD (i.e. 161201)
 
   Dates in this format must be exactly 6 digits (no digits before or behind it.)
@@ -86,7 +86,7 @@ Producers and Websites
    * Primary matching is done using the release date (if found in the filename -- see Supported Date Formats)
    * Secondary matching is done using text search (i.e. episode title and actor names in the filename will yield
      a pretty good search result.)
- 
+
 
 #### hardtied.com
 * Website matching:
@@ -139,7 +139,7 @@ Producers and Websites
      shoot for the website, the shoot is added as a 90% match.
    * Tertiary matching is done using text search (i.e. episode title and actor names in the filename will yield
      a pretty good search result.)
- 
+
 ### BDSM Channels
 #### hogtied.com
 * Website matching:
@@ -322,3 +322,9 @@ Producers and Websites
   * Filename contains "BUTTMACHINEBOYS" or "BUTT MACHINE BOYS" (High)
   * Directory contains "BUTTMACHINEBOYS" or "BUTT MACHINE BOYS" (High)
   * Filename starts with or contains "BMB" (Low)
+
+#### nastydaddy.com
+* Website matching:
+  * Filename contains "NASTYDADDY" or "NASTY DADDY" (High)
+  * Directory contains "NASTYDADDY" or "NASTY DADDY" (High)
+  * Filename starts with or contains "ND" (Low)

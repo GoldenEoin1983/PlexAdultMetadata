@@ -57,6 +57,7 @@ class AdultMetadataAgent(Agent.Movies):
                 BoundInPublic(),
                 ThirthyMinutesOfTorment(),
                 ButtMachineBoys()
+                NastyDaddy()
                 ]
 
     def search(self, results, media, lang, manual):

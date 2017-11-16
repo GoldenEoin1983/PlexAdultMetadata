@@ -167,8 +167,8 @@ class Intersec(Site):
         metadata.title = html.xpath("//span[@class='articleTitleText']/a/text()")[0]
         Log("Set title to {}".format(metadata.title))
 
-        # set content rating to XXX
-        metadata.content_rating = 'XXX'
+        # set content rating to X
+        metadata.content_rating = 'X'
 
         # set movie release date to shoot release date
         release_date = html.xpath("//span[@class='articlePostDateText'][1]/text()")[0]
